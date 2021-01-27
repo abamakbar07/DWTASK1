@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+.LandingPage {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 5vh;
+}
+
+.LandingPage-content img {
+  display: block;
+  padding: 70px 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.LandingPage-border {
+  display: flex;
+  height: 90vh;
+  width: 90vw;
+  margin-bottom: 5vh;
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+.LandingPage-tombol a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Login.card {
+  width: 360px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 6px #00000050;
+}
+
+.Signup.card {
+  width: 360px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 6px #00000050;
+}
+
+.submit-button button {
+  width: 100%;
+}
+
+.Dashboard {
+  background-color: whitesmoke;
+}
+
+.Dashboard-comp-hiden {
+  visibility: hidden;
+}
+
+.Dashboard-comp.profile{
+  position: fixed;
+}
+
+.Dashboard-comp .card{
+  /* border: hidden; */
+  min-height: 95vh;
+}
+
+.Dashboard-comp-profile {
+  display: flex;
+  justify-content: center;
+}
