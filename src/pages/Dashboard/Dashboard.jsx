@@ -4,6 +4,7 @@ import MainContent from './MainContent'
 import Subscribe from './Subscribe'
 
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import Profile from './Profile';
 
 function Dashboard() {
    return (
@@ -20,7 +21,8 @@ function Dashboard() {
                <Col className="Dashboard-comp Dashboard-comp-card" md={9}>
                   <Card className="Dashboard-comp-content bg-transparent border-0" body>
                      {/* <MainContent /> */}
-                     <Subscribe />
+                     {/* <Subscribe /> */}
+                     <Profile />
                   </Card>
                </Col>
             </Row>

@@ -173,3 +173,7 @@
   line-height: 25px;
   color: #D60000;
 }
+
+.ProfileDetail .card {
+  background-color: #FFD9D9;
+}
