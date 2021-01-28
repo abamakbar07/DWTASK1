@@ -133,3 +133,43 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+.Subscribe-card {
+  min-height: 88vh;
+}
+
+.Subscribe-card h1 {
+  font-weight: 700;
+  font-family: Times;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.Subscribe-card p {
+  font-weight: 400;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.Subscribe-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Subscribe-form-file label {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  color: #D60000;
+}

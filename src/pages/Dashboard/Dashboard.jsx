@@ -1,6 +1,7 @@
 import React from 'react'
 import SideMenu from './SideMenu'
 import MainContent from './MainContent'
+import Subscribe from './Subscribe'
 
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
@@ -18,7 +19,8 @@ function Dashboard() {
                <Col className="Dashboard-comp-hiden" md={3}></Col>
                <Col className="Dashboard-comp Dashboard-comp-card" md={9}>
                   <Card className="Dashboard-comp-content bg-transparent border-0" body>
-                     <MainContent />
+                     {/* <MainContent /> */}
+                     <Subscribe />
                   </Card>
                </Col>
             </Row>
