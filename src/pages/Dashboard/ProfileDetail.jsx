@@ -18,8 +18,12 @@ function ProfileDetail() {
                      <img className="" src={email} />
                   </ListGroup.Item>
                   <ListGroup.Item className="text-left border-0 bg-transparent">
-                     <p className="m-0 font-weight-bold">egigans@gmail.com</p>
-                     <small className="text-muted">Email</small>
+                     <p className="m-0 font-weight-bold">
+                        egigans@gmail.com
+                     </p>
+                     <small className="text-muted">
+                        Email
+                     </small>
                   </ListGroup.Item>
                </ListGroup>
                <ListGroup horizontal>
@@ -27,8 +31,12 @@ function ProfileDetail() {
                      <img className="" src={genderMale} />
                   </ListGroup.Item>
                   <ListGroup.Item className="text-left border-0 bg-transparent">
-                     <p className="m-0 font-weight-bold">Male</p>
-                     <small className="text-muted">Gender</small>
+                     <p className="m-0 font-weight-bold">
+                        Male
+                     </p>
+                     <small className="text-muted">
+                        Gender
+                     </small>
                   </ListGroup.Item>
                </ListGroup>
                <ListGroup horizontal>
@@ -36,8 +44,12 @@ function ProfileDetail() {
                      <img className="" src={phone} />
                   </ListGroup.Item>
                   <ListGroup.Item className="text-left border-0 bg-transparent">
-                     <p className="m-0 font-weight-bold">0812-8623-8911</p>
-                     <small className="text-muted">Mobile Phone</small>
+                     <p className="m-0 font-weight-bold">
+                        0812-8623-8911
+                     </p>
+                     <small className="text-muted">
+                        Mobile Phone
+                     </small>
                   </ListGroup.Item>
                </ListGroup>
                <ListGroup horizontal>
@@ -45,8 +57,12 @@ function ProfileDetail() {
                      <img className="" src={address} />
                   </ListGroup.Item>
                   <ListGroup.Item className="text-left border-0 bg-transparent">
-                     <p className="m-0 font-weight-bold">Perumahan Permata Bintaro Residence C-3</p>
-                     <small className="text-muted">Address</small>
+                     <p className="m-0 font-weight-bold">
+                        Perumahan Permata Bintaro Residence C-3
+                     </p>
+                     <small className="text-muted">
+                        Address
+                     </small>
                   </ListGroup.Item>
                </ListGroup>
             </div>

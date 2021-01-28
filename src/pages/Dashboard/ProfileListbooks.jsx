@@ -1,7 +1,4 @@
 import React from 'react'
-import book1 from '../../img/buku1.png'
-import book2 from '../../img/buku2.png'
-import book3 from '../../img/buku3.png'
 import book4 from '../../img/buku4.png'
 import { CardDeck, Card } from 'react-bootstrap';
 
