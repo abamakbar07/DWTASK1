@@ -6,7 +6,7 @@ import Transaction from './pages/Transaction/Transaction';
 function App() {
   return (
     <div className="App">
-      {/* <LandingPage /> */}
+      <LandingPage />
       <Dashboard />
       <Transaction />
       

@@ -1,4 +1,5 @@
 import './LandingPage.css'
+import bg from '../../img/bg.png'
 import logo from '../../img/logo.png'
 import Login from './Login'
 import Signup from './Signup'
