@@ -1,4 +1,5 @@
 import './LandingPage.css'
+import logo from '../../img/logo.png'
 import Login from './Login'
 import Signup from './Signup'
 
@@ -11,7 +12,7 @@ function LandingPage() {
             <div className="LandingPage-border">
                <div className="col-md-4">
                   <div className="LandingPage-contentChild text-center">
-                     <img src="https://static.npmjs.com/attachments/ck3uweazy72ye8874y9kkxnx1-gak.png" />
+                     <img src={logo} />
                   </div>
                   <div className="">
                      Sign-up now and subscribe to enjoy all the cool and the latest books - The best book rental service provider in Indonesia. 
