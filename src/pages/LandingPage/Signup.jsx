@@ -10,15 +10,15 @@ function Signup() {
             <h2 className="mb-3 text-left font-weight-bold">Sign Up</h2>
 
             <Form.Group controlId="formBasicEmail">
-              <Form.Control type="email" placeholder="Enter email" />
+              <Form.Control className="bgTextbox" type="email" placeholder="Enter email" />
             </Form.Group>
 
             <Form.Group controlId="formBasicPassword">
-              <Form.Control type="password" placeholder="Password" />
+              <Form.Control className="bgTextbox" type="password" placeholder="Password" />
             </Form.Group>
 
             <Form.Group controlId="formBasicFullName">
-              <Form.Control type="FullName" placeholder="Full Name" />
+              <Form.Control className="bgTextbox" type="FullName" placeholder="Full Name" />
             </Form.Group>
 
             <Form.Group className="submit-button">

@@ -6,7 +6,7 @@ import { Card, ListGroup } from 'react-bootstrap'
 function BookDetail() {
    return (
       <div className="BookDetail">
-         <Card body className="border-0">
+         <Card body className="border-0 bg-transparent">
             <div className="row">
 
                <div className="col-md-4">
@@ -17,9 +17,6 @@ function BookDetail() {
 
                <div className="col-md-8">
                   <ListGroup horizontal>
-                     <ListGroup.Item className="col-1 border-0 bg-transparent">
-                        <img className="" />
-                     </ListGroup.Item>
                      <ListGroup.Item className="text-left border-0 bg-transparent">
                         <p className="BookDetail-title m-0 font-weight-bold">
                            Tess on the Road
@@ -30,9 +27,6 @@ function BookDetail() {
                      </ListGroup.Item>
                   </ListGroup>
                   <ListGroup horizontal>
-                     <ListGroup.Item className="col-1 border-0 bg-transparent">
-                        <img className="" />
-                     </ListGroup.Item>
                      <ListGroup.Item className="text-left border-0 bg-transparent">
                         <p className="m-0 font-weight-bold">
                            Publication date
@@ -43,9 +37,6 @@ function BookDetail() {
                      </ListGroup.Item>
                   </ListGroup>
                   <ListGroup horizontal>
-                     <ListGroup.Item className="col-1 border-0 bg-transparent">
-                        <img className="" />
-                     </ListGroup.Item>
                      <ListGroup.Item className="text-left border-0 bg-transparent">
                         <p className="m-0 font-weight-bold">
                            Pages
@@ -56,9 +47,6 @@ function BookDetail() {
                      </ListGroup.Item>
                   </ListGroup>
                   <ListGroup horizontal>
-                     <ListGroup.Item className="col-1 border-0 bg-transparent">
-                        <img className="" />
-                     </ListGroup.Item>
                      <ListGroup.Item className="text-left border-0 bg-transparent">
                         <p className="m-0 font-weight-bold text-danger">
                            ISBN

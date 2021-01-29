@@ -1,6 +1,6 @@
 import React from 'react'
 import wow from './../../img/wow.png'
-
+import attach from './../../img/icon/attach.png'
 import { Card, Form, Button } from 'react-bootstrap';
 
 function Subscribe() {
@@ -17,18 +17,25 @@ function Subscribe() {
                            <p className="font-weight-bold"><img src={wow} />: 0981312323</p>
                               <Form>
                                  <Form.Group>
-                                 <Form.Control type="id" placeholder="Input your account number" />
+                                    <Form.Control className="bgTextboxFile" type="id" placeholder="Input your account number" />
                                  </Form.Group>
-
-                                 <Form.File className="Subscribe-form-file text-left"
-                                    id="custom-file-translate-scss"
-                                    label="Attache proof of transfer"
-                                    lang="en"
-                                    custom
-                                 />
+                                 
+                                 <div className="form-group">
+                                    <label for="fusk" className="bgTextboxSubs form-control">
+                                       <div className="justify-content-between row ml-1 mr-1">
+                                          <p className="text-left ">
+                                             Attache proof of transfer
+                                          </p>
+                                          <div className="">
+                                             <img src={attach} />
+                                          </div>
+                                       </div>
+                                    </label>
+                                    <input id="fusk" type="file" name="photo" style={{display:"none"}} />
+                                 </div>
 
                                  <Form.Group className="submit-button mt-5">
-                                 <Button className="mt-2" variant="danger" type="submit">
+                                 <Button className="mt-2" variant="danger" type="file">
                                     Send
                                  </Button>
                                  </Form.Group>

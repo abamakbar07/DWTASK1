@@ -9,12 +9,12 @@ function Login() {
             
             <h2 className="mb-3 text-left font-weight-bold">Sign In</h2>
 
-            <Form.Group controlId="formBasicEmail">
-              <Form.Control type="email" placeholder="Enter email" />
+            <Form.Group className="" controlId="formBasicEmail">
+              <Form.Control className="bgTextbox" type="email" placeholder="Enter email" />
             </Form.Group>
 
-            <Form.Group controlId="formBasicPassword">
-              <Form.Control type="password" placeholder="Password" />
+            <Form.Group className="" controlId="formBasicPassword">
+              <Form.Control className="bgTextbox" type="password" placeholder="Password" />
             </Form.Group>
 
             <Form.Group className="submit-button">

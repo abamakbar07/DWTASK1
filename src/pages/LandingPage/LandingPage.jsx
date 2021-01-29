@@ -22,7 +22,7 @@ function LandingPage() {
 
                   <div className="LandingPage-tombol pt-4 text-center">
                      <a name="" id="" class="btn btn-danger" href="#" role="button">Sign Up</a>
-                     <a name="" id="" class="btn btn-light" href="#" role="button">Sign In</a>
+                     <a name="" id="" class="btn btn-dark" href="#" role="button">Sign In</a>
                   </div>
                </div>
             </div>
