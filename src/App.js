@@ -3,9 +3,7 @@ import LandingPage from './pages/LandingPage/LandingPage'
 import Dashboard from './pages/Dashboard/Dashboard'
 import Admin from './pages/Admin/Admin';
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Login from './comp/Login';
-import Signup from './comp/Signup';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (

@@ -22,7 +22,7 @@ function AdminAddBook() {
                      <br />
                      <Form.Control className="bgTextboxSubs" size="lg" type="text" placeholder="ISBN" />
                      <br />
-                     <Form.Control className="bgTextboxSubs" className="Admin-AddBook-about" size="lg" type="text" placeholder="About This Book" />
+                     <Form.Control className="bgTextboxSubs Admin-AddBook-about" size="lg" type="text" placeholder="About This Book" />
                      <br />
                      <div className="form-group col-md-4 pl-0 pr-0">
                         <label for="fusk" className="bgTextboxAdd form-control">
@@ -31,7 +31,7 @@ function AdminAddBook() {
                                  Attache proof of transfer
                               </p>
                               <div className="">
-                                 <img src={attach} />
+                                 <img alt="" src={attach} />
                               </div>
                            </div>
                         </label>
@@ -39,7 +39,7 @@ function AdminAddBook() {
                      </div>
                      <div className="row">
                         <div className="col-sm-12 text-right">
-                           <button className="btn btn-dangerAdd m-1">Add Book <img className="ml-2" src={addBook} /></button>
+                           <button className="btn btn-dangerAdd m-1">Add Book <img alt="" className="ml-2" src={addBook} /></button>
                         </div>
                      </div>
                   </Form.Group>

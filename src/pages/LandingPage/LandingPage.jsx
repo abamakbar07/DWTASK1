@@ -35,7 +35,7 @@ function LandingPage() {
                <div className="col-md-4">
 
                   <div className="LandingPage-contentChild text-center">
-                     <img src={logo} style={{
+                     <img src={logo} alt="" style={{
                         width: "420px",
                         padding: "0"
                      }} />
@@ -46,8 +46,8 @@ function LandingPage() {
                   </div>
 
                   <div className="LandingPage-tombol pt-4 text-center">
-                     <a onClick={signupDsply} class="btn btn-danger" href="#" role="button">Sign Up</a>
-                     <a onClick={signinDsply} class="btn btn-dark" href="#" role="button">Sign In</a>
+                     <a onClick={signupDsply} class="btn btn-danger" href="/#" role="button">Sign Up</a>
+                     <a onClick={signinDsply} class="btn btn-dark" href="/#" role="button">Sign In</a>
                   </div>
 
                </div>

@@ -11,11 +11,11 @@ function Signup(props) {
             
             <h2 className="mb-3 text-left font-weight-bold">Sign Up</h2>
 
-            <Form.Group controlId="formBasicEmail">
+            <Form.Group>
               <Form.Control className="bgTextbox" type="email" placeholder="Enter email" />
             </Form.Group>
 
-            <Form.Group controlId="formBasicPassword">
+            <Form.Group>
               <Form.Control className="bgTextbox" type="password" placeholder="Password" />
             </Form.Group>
 
@@ -32,7 +32,7 @@ function Signup(props) {
             </Form.Group>
 
             <Form.Text className="text-muted">
-              Already have an account? Klik <a className="font-weight-bold text-dark" onClick={props.valSi}>Here</a>
+              Already have an account? Klik <a className="font-weight-bold text-dark" onClick={props.valSi} href="/#">Here</a>
             </Form.Text>            
 
           </Form>

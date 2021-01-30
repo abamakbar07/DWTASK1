@@ -25,7 +25,7 @@ function SideMenu() {
             <div class="form-group row">
                <button class="btn btn-block" style={{display: "flex"}}>
                   <div className="col-1 pr-4">
-                     <img className="Dashboard-sidebar-icon" src={iconProfile} />
+                     <img alt="" className="Dashboard-sidebar-icon" src={iconProfile} />
                   </div>
                   <p className="Dashboard-sidebar-text col-12 text-left mb-0 ml-2 text-secondary" >Profile</p>
                </button>
@@ -36,7 +36,7 @@ function SideMenu() {
             <div class="form-group row">
                <button class="btn btn-block" style={{display: "flex"}}>
                   <div className="col-1 pr-4">
-                     <img className="Dashboard-sidebar-icon" src={iconSubscibe} />
+                     <img alt="" className="Dashboard-sidebar-icon" src={iconSubscibe} />
                   </div>
                   <p className="Dashboard-sidebar-text col-12 text-left mb-0 ml-2 text-secondary" >Subscibe</p>
                </button>
@@ -49,7 +49,7 @@ function SideMenu() {
             <div class="form-group row">
                <button class="btn btn-block" style={{display: "flex"}}>
                   <div className="col-1 pr-4">
-                     <img className="Dashboard-sidebar-icon" src={iconLogout} />
+                     <img alt="" className="Dashboard-sidebar-icon" src={iconLogout} />
                   </div>
                   <p className="Dashboard-sidebar-text col-12 text-left mb-0 ml-2 text-secondary" >Logout</p>
                </button>

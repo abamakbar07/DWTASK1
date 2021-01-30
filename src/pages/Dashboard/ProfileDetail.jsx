@@ -15,7 +15,7 @@ function ProfileDetail() {
             <div className="col-md-8">
                <ListGroup horizontal>
                   <ListGroup.Item className="col-1 border-0 bg-transparent">
-                     <img className="" src={email} />
+                     <img className="" src={email} alt="" />
                   </ListGroup.Item>
                   <ListGroup.Item className="text-left border-0 bg-transparent">
                      <p className="m-0 font-weight-bold">
@@ -28,7 +28,7 @@ function ProfileDetail() {
                </ListGroup>
                <ListGroup horizontal>
                   <ListGroup.Item className="col-1 border-0 bg-transparent">
-                     <img className="" src={genderMale} />
+                     <img className="" src={genderMale} alt="" />
                   </ListGroup.Item>
                   <ListGroup.Item className="text-left border-0 bg-transparent">
                      <p className="m-0 font-weight-bold">
@@ -41,7 +41,7 @@ function ProfileDetail() {
                </ListGroup>
                <ListGroup horizontal>
                   <ListGroup.Item className="col-1 border-0 bg-transparent">
-                     <img className="" src={phone} />
+                     <img className="" src={phone} alt="" />
                   </ListGroup.Item>
                   <ListGroup.Item className="text-left border-0 bg-transparent">
                      <p className="m-0 font-weight-bold">
@@ -54,7 +54,7 @@ function ProfileDetail() {
                </ListGroup>
                <ListGroup horizontal>
                   <ListGroup.Item className="col-1 border-0 bg-transparent">
-                     <img className="" src={address} />
+                     <img className="" src={address} alt="" />
                   </ListGroup.Item>
                   <ListGroup.Item className="text-left border-0 bg-transparent">
                      <p className="m-0 font-weight-bold">
@@ -68,7 +68,7 @@ function ProfileDetail() {
             </div>
             <div className="col-md-4">
                <ListGroup>
-                  <img src={profileDetail} style={{width: "100%"}} />
+                  <img src={profileDetail} style={{width: "100%"}} alt="" />
                </ListGroup>
                <ListGroup className="mt-2">
                   <div className="btn btn-danger">Edit Profile</div>

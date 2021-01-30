@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { Navbar, Table } from 'react-bootstrap'
+import React from 'react'
+import { Table } from 'react-bootstrap'
 import { dataTransaction } from './AdminDataTransaction'
 
 // import { useParams } from "react-router-dom";

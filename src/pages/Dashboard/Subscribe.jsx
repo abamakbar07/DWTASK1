@@ -13,8 +13,8 @@ function Subscribe() {
                      <Card.Body className="Subscribe-body">
                         <div>
                            <h1>Premium</h1>
-                           <p>Pay now and access all the latest books from <img src={wow} /></p>
-                           <p className="font-weight-bold"><img src={wow} />: 0981312323</p>
+                           <p>Pay now and access all the latest books from <img src={wow} alt="" /></p>
+                           <p className="font-weight-bold"><img src={wow} alt="" />: 0981312323</p>
                               <Form>
                                  <Form.Group>
                                     <Form.Control className="bgTextboxFile" type="id" placeholder="Input your account number" />
@@ -27,7 +27,7 @@ function Subscribe() {
                                              Attache proof of transfer
                                           </p>
                                           <div className="">
-                                             <img src={attach} />
+                                             <img src={attach} alt="" />
                                           </div>
                                        </div>
                                     </label>

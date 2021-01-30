@@ -11,8 +11,8 @@ function AdminNavbar() {
             position: "fixed"
          }}>
             <Navbar className="justify-content-between bg-transparent pt-3">
-               <img src={logo} width="105px" style={{transform: "rotate(-15deg)"}} />
-               <img src={profile} width="50px" />
+               <img alt="" src={logo} width="105px" style={{transform: "rotate(-15deg)"}} />
+               <img alt="" src={profile} width="50px" />
             </Navbar>
          </div>
          

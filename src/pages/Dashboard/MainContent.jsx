@@ -8,7 +8,7 @@ function MainContent() {
          <div className="container">
             <div className="row">
                <div className="col-md-12">
-                  <img className="MainContent-header" src={header} />
+                  <img className="MainContent-header" src={header} alt="" />
                   <h4 className="MainContent-subTitle text-left m-3 font-weight-bold">List Book</h4>
                   <div className="row m-3">
                      <ListBooks />

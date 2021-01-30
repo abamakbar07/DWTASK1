@@ -11,7 +11,7 @@ function BookDetail() {
 
                <div className="col-md-4">
                   <ListGroup>
-                     <img src={book4} style={{width: "100%"}} />
+                     <img alt="" src={book4} style={{width: "100%"}} />
                   </ListGroup>
                </div>
 
@@ -73,7 +73,7 @@ function BookDetail() {
 
             <div className="row">
                <div className="col-sm-12 text-right">
-                  <button className="btn btn-danger m-1">Add My List <img className="ml-2" src={bookmark} /></button>
+                  <button className="btn btn-danger m-1">Add My List <img alt="" className="ml-2" src={bookmark} /></button>
                   <button className="btn btn-light m-1" style={{background: "rgba(205, 205, 205, 0.7)"}}>Read Book <div className="vRotate ml-2">V</div></button>
                </div>
             </div>

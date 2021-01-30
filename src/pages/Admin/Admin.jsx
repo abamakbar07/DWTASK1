@@ -8,7 +8,7 @@ function Admin() {
       <div className="Admin">
          <AdminNavbar />
             <AdminTransaction />
-            {/* <AdminAddBook /> */}
+            <AdminAddBook />
          
       </div>
    )

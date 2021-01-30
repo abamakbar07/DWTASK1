@@ -8,7 +8,7 @@ function Profile() {
          <div className="container">
             <div className="row">
                <div className="col-md-12">
-                  <img className="MainContent-header" src="" />
+                  <img className="MainContent-header" src="" alt="" />
                   <h4 className="MainContent-subTitle text-left mb-3 font-weight-bold">Profile</h4>
                   <div className="row">
                      <ProfileDetail />
