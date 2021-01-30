@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-function Signup() {
+function Signup(props) {
   return (
 
       <div className="card-body">
@@ -32,7 +32,7 @@ function Signup() {
             </Form.Group>
 
             <Form.Text className="text-muted">
-              Already have an account? Klik <a className="font-weight-bold text-dark">Here</a>
+              Already have an account? Klik <a className="font-weight-bold text-dark" onClick={props.valSi}>Here</a>
             </Form.Text>            
 
           </Form>

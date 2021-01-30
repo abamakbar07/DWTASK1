@@ -182,8 +182,29 @@
   border: 1px solid #C9C9C9;
 }
 
+.Dashboard-sidebar-text {
+  font-size: 22px;
+  font-weight: 475;
+}
+
+.Dashboard-sidebar-icon {
+  width: auto;
+  height: 32px;
+}
+
 .MainContent-header {
   max-width: 66vw;
+}
+
+.MainContent-subTitle {
+  font-family: "Times New Roman";
+  font-size: 40px;
+  margin-bottom: 39px;
+}
+
+.ListBooks {
+  margin-top: 6px;
+  margin-bottom: 69px;
 }
 
 .ListBooks-title {

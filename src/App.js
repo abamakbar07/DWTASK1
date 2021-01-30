@@ -12,22 +12,21 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
+
           <Route path="/" exact>
             <LandingPage />
           </Route>
+
           <Route path="/Dashboard" exact>
             <Dashboard />
           </Route>
+
           <Route path="/Admin" exact>
             <Admin />
           </Route>
-          <Route path="/Login" exact>
-            <Login />
-          </Route>
+
         </Switch>
-        {/* <LandingPage /> */}
-        {/* <Dashboard /> */}
-        {/* <Admin /> */}
+
       </div>
     </Router>
   );

@@ -27,7 +27,7 @@ function BookDetail() {
                      </ListGroup.Item>
                   </ListGroup>
                   <ListGroup horizontal>
-                     <ListGroup.Item className="text-left border-0 bg-transparent">
+                     <ListGroup.Item className="text-left border-0 bg-transparent mt-3">
                         <p className="m-0 font-weight-bold">
                            Publication date
                         </p>

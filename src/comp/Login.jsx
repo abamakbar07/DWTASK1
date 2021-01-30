@@ -3,7 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 
-function Login() {
+function Login(props) {
 
   return (
 
@@ -30,7 +30,7 @@ function Login() {
             </Form.Group>
 
             <Form.Text className="text-muted">
-              Don't have an account? Klik <a className="font-weight-bold text-dark">Here</a>
+              Don't have an account? Klik <a className="font-weight-bold text-dark" onClick={props.valSu} >Here</a>
             </Form.Text>            
 
           </Form>

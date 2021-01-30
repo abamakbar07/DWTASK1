@@ -9,8 +9,8 @@ function MainContent() {
             <div className="row">
                <div className="col-md-12">
                   <img className="MainContent-header" src={header} />
-                  <h4 className="text-left m-3 font-weight-bold" style={{fontFamily: "Times New Roman"}}>List Book</h4>
-                  <div className="row">
+                  <h4 className="MainContent-subTitle text-left m-3 font-weight-bold">List Book</h4>
+                  <div className="row m-3">
                      <ListBooks />
                   </div>
                </div>

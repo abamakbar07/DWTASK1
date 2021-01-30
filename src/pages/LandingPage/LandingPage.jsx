@@ -11,11 +11,13 @@ function LandingPage() {
 
    const signupDsply = () => {
       setSignupDisplay(!signupDisplay)
-      setDimDisplay(!dimDisplay)
+      setSigninDisplay(false)
+      setDimDisplay(true)
    }
    const signinDsply = () => {
       setSigninDisplay(!signinDisplay)
-      setDimDisplay(!dimDisplay)
+      setSignupDisplay(false)
+      setDimDisplay(true)
    }
    const dimDsply = () => {
       setDimDisplay(false)
@@ -55,10 +57,10 @@ function LandingPage() {
          <div className="LandingPage-dim" onClick={dimDsply} style={{display: dimDisplay?'block':'none'}}></div>
 
          <div className="Login card" style={{display: signinDisplay?'block':'none'}}>
-            <Login />
+            <Login valSu={signupDsply} />
          </div>
          <div className="Signup card" style={{display: signupDisplay?'block':'none'}}>
-            <Signup />
+            <Signup valSi={signinDsply} />
          </div>
 
       </div>
