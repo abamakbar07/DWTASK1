@@ -46,8 +46,8 @@ function LandingPage() {
                   </div>
 
                   <div className="LandingPage-tombol pt-4 text-center">
-                     <a onClick={signupDsply} class="btn btn-danger" href="/#" role="button">Sign Up</a>
-                     <a onClick={signinDsply} class="btn btn-dark" href="/#" role="button">Sign In</a>
+                     <a onClick={signupDsply} className="btn btn-danger" href="/#" role="button">Sign Up</a>
+                     <a onClick={signinDsply} className="btn btn-dark" href="/#" role="button">Sign In</a>
                   </div>
 
                </div>

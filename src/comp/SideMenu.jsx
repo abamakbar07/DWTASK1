@@ -22,8 +22,8 @@ function SideMenu() {
          <hr className="Dashboard-comp-profile-line"></hr>
 
          <div className="pt-5 d-flex">
-            <div class="form-group row">
-               <button class="btn btn-block" style={{display: "flex"}}>
+            <div className="form-group row">
+               <button className="btn btn-block" style={{display: "flex"}}>
                   <div className="col-1 pr-4">
                      <img alt="" className="Dashboard-sidebar-icon" src={iconProfile} />
                   </div>
@@ -33,8 +33,8 @@ function SideMenu() {
          </div>
 
          <div className="pt-5 d-flex">
-            <div class="form-group row">
-               <button class="btn btn-block" style={{display: "flex"}}>
+            <div className="form-group row">
+               <button className="btn btn-block" style={{display: "flex"}}>
                   <div className="col-1 pr-4">
                      <img alt="" className="Dashboard-sidebar-icon" src={iconSubscibe} />
                   </div>
@@ -46,8 +46,8 @@ function SideMenu() {
          <hr className="Dashboard-comp-profile-line"></hr>
 
          <div className="pt-5 d-flex">
-            <div class="form-group row">
-               <button class="btn btn-block" style={{display: "flex"}}>
+            <div className="form-group row">
+               <button className="btn btn-block" style={{display: "flex"}}>
                   <div className="col-1 pr-4">
                      <img alt="" className="Dashboard-sidebar-icon" src={iconLogout} />
                   </div>
