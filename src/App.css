@@ -89,6 +89,8 @@
 .LandingPage {
   background-color: #E5E5E5;
   background-image: url('../src/img/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
   padding-top: 5vh;
@@ -112,9 +114,20 @@
 }
 
 .LandingPage-tombol a {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
+
+.LandingPage-dim {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 
 .Login.card {
   width: 360px;
@@ -290,4 +303,12 @@
   height:200px !important;
   line-height:200px !important;
   padding:0 5px !important;
+}
+
+.tr-listTransaction th {
+  width: 3%;
+}
+
+.tr-listTransaction td {
+  width: 3%;
 }

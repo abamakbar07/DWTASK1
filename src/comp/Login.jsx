@@ -1,8 +1,12 @@
 import React from 'react'
 import { Button, Form } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 function Login() {
+
   return (
+
       <div className="card-body">
         <div className="container p-2">
           <Form>
@@ -18,9 +22,11 @@ function Login() {
             </Form.Group>
 
             <Form.Group className="submit-button">
-              <Button className="mt-2" variant="danger" type="submit">
-                Sign In
-              </Button>
+              <Link to="/Dashboard">
+                <Button className="mt-2" variant="danger" type="submit">
+                  Sign In
+                </Button>
+              </Link>
             </Form.Group>
 
             <Form.Text className="text-muted">
@@ -30,6 +36,7 @@ function Login() {
           </Form>
         </div>
       </div>
+
    )
 }
 
