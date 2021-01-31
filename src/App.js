@@ -1,30 +1,31 @@
+import React, { useContext } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import { AppContext } from './context/globalContext'
+
 import './App.css';
+
+import PrivateRoute from './comp/PrivateRoute'
 import LandingPage from './pages/LandingPage/LandingPage'
 import Dashboard from './pages/Dashboard/Dashboard'
 import Admin from './pages/Admin/Admin';
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
+  const [state] = useContext(AppContext);
+
   return (
     <Router>
       <div className="App">
+        {state.isLogin && <Dashboard />}
         <Switch>
 
           <Route path="/" exact>
             <LandingPage />
           </Route>
-
-          <Route path="/Dashboard" exact>
-            <Dashboard />
-          </Route>
-
-          <Route path="/Admin" exact>
-            <Admin />
-          </Route>
+          <PrivateRoute path="/Dashboard" exact component={Dashboard} />
+          <PrivateRoute path="/Admin" exact component={Admin} />
 
         </Switch>
-
       </div>
     </Router>
   );
